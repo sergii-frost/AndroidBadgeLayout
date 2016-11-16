@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="BadgeLayout">
+		<attr name="badge_position">
+			<enum name="topLeft" value="1" />
+			<enum name="topRight" value="2" />
+			<enum name="bottomLeft" value="3" />
+			<enum name="bottomRight" value="4" />
+		</attr>
+		<attr name="badge_weight" format="float"/>
+	</declare-styleable>
+</resources>
